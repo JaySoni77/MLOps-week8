@@ -73,7 +73,6 @@ def train_model(data_path):
             input_example=X_train,
             registered_model_name="iris-classifier-dt"
         )
-
     print(f"Training complete. Accuracy: {accuracy:.3f}")
 
 if __name__ == "__main__":

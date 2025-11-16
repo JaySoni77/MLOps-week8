@@ -1,0 +1,22 @@
+# OS / User Config
+.cache/
+.config/
+.local/
+.docker/
+.npm/
+.bashrc
+.gitconfig
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+*.ipynb
+
+# System Files
+.DS_Store
+Thumbs.db
