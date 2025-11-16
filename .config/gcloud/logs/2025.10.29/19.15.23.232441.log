@@ -1,0 +1,11 @@
+2025-10-29 19:15:23,234 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2025-10-29 19:15:23,240 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'configure_docker']
+2025-10-29 19:15:23,242 DEBUG    root            Running [gcloud.auth.configure-docker] with arguments: [--quiet: "True"]
+2025-10-29 19:15:23,264 INFO     ___FILE_ONLY___ Adding credentials for all GCR repositories.
+
+2025-10-29 19:15:23,264 WARNING  root            A long list of credential helpers may cause delays running 'docker build'. We recommend passing the registry name to configure only the registry you are using.
+2025-10-29 19:15:23,286 INFO     ___FILE_ONLY___ Docker configuration file updated.
+
+2025-10-29 19:15:23,286 DEBUG    root            Chosen display Format:default
+2025-10-29 19:15:23,287 INFO     root            Display format: "default"
+2025-10-29 19:15:23,315 DEBUG    root            SDK update checks are disabled.

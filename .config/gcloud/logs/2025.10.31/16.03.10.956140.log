@@ -1,0 +1,8 @@
+2025-10-31 16:03:10,959 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2025-10-31 16:03:10,975 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2025-10-31 16:03:10,980 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "project"]
+2025-10-31 16:03:10,986 DEBUG    root            Chosen display Format:value(.)
+2025-10-31 16:03:10,987 INFO     root            Display format: "value(.)"
+2025-10-31 16:03:10,988 INFO     ___FILE_ONLY___ caramel-element-473616-v5
+
+2025-10-31 16:03:11,051 DEBUG    root            SDK update checks are disabled.

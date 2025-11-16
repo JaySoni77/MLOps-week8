@@ -1,0 +1,20 @@
+2025-11-16 18:05:37,253 DEBUG    root            Loaded Command Group: ['gcloud', 'services']
+2025-11-16 18:05:37,272 DEBUG    root            Loaded Command Group: ['gcloud', 'services', 'list']
+2025-11-16 18:05:37,277 DEBUG    root            Running [gcloud.services.list] with arguments: [--enabled: "True", --filter: "NAME=dataproc.googleapis.com", --project: "caramel-element-473616-v5"]
+2025-11-16 18:05:37,352 DEBUG    root            Chosen display Format:
+          table(
+            config.name:label=NAME:sort=1,
+            config.title
+          )
+        
+2025-11-16 18:05:37,354 INFO     root            Display format: "
+          table(
+            config.name:label=NAME:sort=1,
+            config.title
+          )
+        "
+2025-11-16 18:05:37,362 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): serviceusage.googleapis.com:443
+2025-11-16 18:05:37,587 DEBUG    urllib3.connectionpool https://serviceusage.googleapis.com:443 "GET /v1/projects/caramel-element-473616-v5/services?alt=json&filter=state%3AENABLED&pageSize=200 HTTP/11" 200 None
+2025-11-16 18:05:37,761 INFO     ___FILE_ONLY___ Listed 0 items.
+
+2025-11-16 18:05:37,771 DEBUG    root            SDK update checks are disabled.
